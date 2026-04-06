@@ -22,13 +22,13 @@ export function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
 
         <div className="relative container mx-auto px-4 h-full flex items-center">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-4xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <Sparkles className="text-yellow-400" size={32} />
               <span className="text-yellow-400 font-semibold">Since 2005</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Celebrate Every Moment with <span className="text-yellow-400">Divya Crackers</span>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
+              Celebrate Every <span className="whitespace-nowrap">Moment with <span className="text-yellow-400">Divya Crackers</span></span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
               Trusted Fireworks Dealer Since 2005
@@ -125,12 +125,6 @@ export function Home() {
               className="bg-white text-red-500 px-8 py-4 rounded-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
             >
               Shop Products
-            </Link>
-            <Link
-              to="/gallery"
-              className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-            >
-              View Gallery
             </Link>
           </div>
         </div>
