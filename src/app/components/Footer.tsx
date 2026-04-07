@@ -3,6 +3,15 @@ import { Facebook, Instagram, Mail, Phone, MapPin, Clock, Heart } from 'lucide-r
 import logo from '../../assets/logo.png';
 
 export function Footer() {
+  // Navigation matches the Navbar exactly (Gallery removed, About included)
+  const navigationLinks = [
+    { name: 'Home', path: '/' },
+    { name: 'Products', path: '/products' },
+    { name: 'About Us', path: '/about' },
+    { name: 'Cart', path: '/cart' },
+    { name: 'Contact Us', path: '/contact' },
+  ];
+
   return (
     <footer className="bg-white border-t border-gray-100 mt-20">
       <div className="container mx-auto px-4 py-16">
@@ -57,17 +66,19 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Quick Links Column */}
+          {/* Quick Links Column - UPDATED TO MATCH NAVBAR */}
           <div>
             <div className="border-l-4 border-red-600 pl-4 mb-6">
               <h3 className="font-black text-gray-900 uppercase tracking-wider">Navigation</h3>
             </div>
             <ul className="space-y-3 text-gray-600 text-sm font-medium">
-              <li><Link to="/" className="hover:text-red-600 transition-colors">Home</Link></li>
-              <li><Link to="/about" className="hover:text-red-600 transition-colors">About Us</Link></li>
-              <li><Link to="/products" className="hover:text-red-600 transition-colors">Shop Products</Link></li>
-              <li><Link to="/gallery" className="hover:text-red-600 transition-colors">Gallery</Link></li>
-              <li><Link to="/contact" className="hover:text-red-600 transition-colors">Contact Us</Link></li>
+              {navigationLinks.map((link) => (
+                <li key={link.path}>
+                  <Link to={link.path} className="hover:text-red-600 transition-colors">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
