@@ -54,6 +54,16 @@ import thousandmm from '../../assets/1k.png';
 import twothousandmm from '../../assets/2k.png';
 import fivethousandmm from '../../assets/5k.png';
 import thousandspecial from '../../assets/1k-special.png';
+import bombs from '../../assets/bombs.png';
+import atombomb from '../../assets/atombomb.png';
+import hydrogenbomb from '../../assets/hydrogenbomb.png';
+import kingbomb from '../../assets/kingbomb.png';
+import digitalbomb from '../../assets/digitalbomb.png';
+import megidigitalbomb from '../../assets/megidigitalbomb.png';
+import crackergiftbox from '../../assets/crackersgiftbox.png';
+import twoeightyeight from '../../assets/288handshot.png';
+import twentysetout from '../../assets/20setout.png';
+
 export interface Product {
   id: string;
   name: string;
@@ -85,7 +95,7 @@ export const products: Product[] = [
   { id: '13', name: 'Flower Pots', price: 250, category: 'Flower Pots', image: FlowerPots },
   // { id: '14', name: 'Fountains', price: 300, category: 'Fountains', image: Fountains },
   { id: '15', name: 'Hand Shots', price: 180, category: 'Hand Items', image: HandShots },
-  { id: '16', name: 'IPL Setout', price: 2500, category: 'Setouts', image: IplSetout },
+  { id: '16', name: 'IPL Setout', price: 2500, category: 'Set Outs', image: IplSetout },
 
   // Row 5
   // { id: '17', name: 'Kids Special', price: 350, category: 'Kids', image: KidsSpecial },
@@ -145,4 +155,17 @@ export const products: Product[] = [
   { id: '53', name: '2000 mm', price: 650, category: 'Sound', image: twothousandmm},
   { id: '54', name: '5000 mm', price: 650, category: 'Sound', image: fivethousandmm },
   { id: '51', name: '10000 mm', price: 650, category: 'Sound', image: tenthousandmm},
+  { id: '56', name: 'Bombs', price: 650, category: 'Bombs', image: bombs},
+
+  //Row 15
+  { id: '57', name: 'Atom Bomb', price: 650, category: 'Bombs', image: atombomb},
+  { id: '58', name: 'Hydrogen Bomb', price: 650, category: 'Bombs', image:hydrogenbomb},
+  { id: '59', name: 'kingBomb', price: 650, category: 'Bombs', image:kingbomb},
+  { id: '60', name: 'DigitalBomb', price: 650, category: 'Bombs', image:digitalbomb},
+
+  //Row 16
+  { id: '61', name: 'Megi Digital Bomb', price: 650, category: 'Bombs', image:megidigitalbomb},
+  { id: '62', name: 'Cracker Gift Box', price: 650, category: 'Gift Boxes', image:crackergiftbox},
+  { id: '63', name: '288 Hand Shot', price: 650, category: 'Shots', image:twoeightyeight},
+  { id: '64', name: '20 Set Out', price: 650, category: 'Set Outs', image:twentysetout},
 ];
