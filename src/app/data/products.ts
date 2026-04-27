@@ -91,7 +91,6 @@ export const products: Product[] = [
   { id: '9', name: '520 Multi Colour Shots', price: 5500, category: 'Shots', image: MulticolorShots520 },
   { id: '10', name: 'Aerial Fancy', price: 1800, category: 'Fancy', image: AerialFancy },
   { id: '11', name: 'Colourful Peacock', price: 600, category: 'Fancy', image: ColourfulPeacock },
-  { id: '12', name: 'Digital Garlands', price: 450, category: 'Garlands', image: DigitalGarlands },
 
   // Row 4
   { id: '13', name: 'Flower Pots', price: 250, category: 'Flower Pots', image: FlowerPots },
