@@ -104,13 +104,7 @@ export function About() {
               </div>
             </div>
           </div>
-           <div className="w-full mt-10">
-            <img 
-             src={aboutBanner}
-             alt="About Divya Crackers"
-             className="w-full h-[220px] md:h-[300px] object-cover rounded-lg"
-              />
-             </div>
+    
           {/* Matches the 'Quick Order' box style from Contact Page */}
           <div className="mt-8 bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-xl border border-red-100">
             <h3 className="font-semibold text-xl text-gray-800 mb-3">Visit Our Store</h3>
