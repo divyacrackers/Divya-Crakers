@@ -47,29 +47,29 @@ export function Home() {
               <Sparkles className="text-yellow-400" size={32} />
               <span className="text-yellow-400 font-semibold">Since 2005</span>
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
-              Celebrate Every <span className="whitespace-nowrap">Moment with <span className="text-yellow-400">Divya Crackers</span></span>
+            <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight text-white">
+             Celebrate Every <span className="block">Moment with <span className="text-yellow-400">Divya Crackers</span></span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Trusted Fireworks Dealer Since 2005
+             Trusted Fireworks Dealer Since 2005
             </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                to="/products"
-                className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
-              >
-                <ShoppingBag size={24} />
-                Shop Now
-              </Link>
-              <a
-                href={`https://wa.me/919894354432?text=${fullWhatsAppMessage}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-              >
-                Order on WhatsApp
-              </a>
-            </div>
+       <div className="flex flex-col sm:flex-row gap-4 w-full">
+        <Link
+         to="/products"
+           className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 w-full sm:w-auto"
+        >
+        <ShoppingBag size={24} />
+         Shop Now
+        </Link>
+        <a
+         href={`https://wa.me/919894354432?text=${fullWhatsAppMessage}`}
+         target="_blank"
+         rel="noopener noreferrer"
+         className="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+          >
+         Order on WhatsApp
+         </a>
+           </div>
           </div>
         </div>
       </section>
