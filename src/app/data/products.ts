@@ -53,6 +53,8 @@ import tenthousandmm from '../../assets/10k.png';
 import thousandmm from '../../assets/1k.png';
 import twothousandmm from '../../assets/2k.png';
 import fivethousandmm from '../../assets/5k.png';
+import LakmiDeluxe from '../../assets/lakmi-deluxe.jpg';
+import EllisDeluxe from '../../assets/ellis-deluxe.jpg';
 import thousandspecial from '../../assets/1k-special.png';
 import bombs from '../../assets/bombs.png';
 import atombomb from '../../assets/atombomb.png';
@@ -93,12 +95,12 @@ export const products: Product[] = [
 
   // Row 4
   { id: '13', name: 'Flower Pots', price: 250, category: 'Flower Pots', image: FlowerPots },
-  // { id: '14', name: 'Fountains', price: 300, category: 'Fountains', image: Fountains },
+  { id: '14', name: 'Lakmi Deluxe', price: 700, category: 'Fancy', image: LakmiDeluxe },
   { id: '15', name: 'Hand Shots', price: 180, category: 'Hand Items', image: HandShots },
   { id: '16', name: 'IPL Setout', price: 2500, category: 'Set Outs', image: IplSetout },
 
   // Row 5
-  // { id: '17', name: 'Kids Special', price: 350, category: 'Kids', image: KidsSpecial },
+  { id: '17', name: 'Ellis Deluxe', price: 750, category: 'Fancy', image: EllisDeluxe },
   { id: '18', name: 'Luna Rocket', price: 120, category: 'Rockets', image: LunaRocket },
   { id: '19', name: 'Man Pasand 25 Shots', price: 500, category: 'Fancy', image: ManPasand },
   { id: '20', name: 'Naruto 30 Shots', price: 650, category: 'Shots', image: Naruto30Shots },
